@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox - Freelancer</title>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap"rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="site-header">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="contenedor-hero">
+            <h1>Diseño y Desarrollo Freelancer</h1>
+            <p><i class="fa-solid fa-location-dot"></i> Miranda - Valles del Tuy</p> 
+            <a href="#" class="boton">Contactar</a>
+        </div>
+    </div>
+
+    <main class="servicios contenedor">
+        <h2>Nuestros Servicios</h2>
+        <div class="contenedor-servicios">
+            <div class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <i class="fa-solid fa-pen-clip"></i>
+                </div>
+                <p>Sed urna tortor, tristique id sagittis quis, feugiat at diam. Mauris facilisis
+                    mauris ut tristique pulvinar, nunc elit mollis nibh, a eleifend nibh lorem se
+                </p>
+            </div>
+            <div class="servicio">
+                <h3>Aplicaciones Móviles</h3>
+                <div class="iconos">
+                    <i class="fa-brands fa-android"></i>
+                    <i class="fa-brands fa-apple"></i>
+                </div>
+                <p>Sed urna tortor, tristique id sagittis quis, feugiat at diam. Mauris facilisis
+                    mauris ut tristique pulvinar, nunc elit mollis nibh, a eleifend nibh lorem se
+                </p>
+            </div>
+            <div class="servicio">
+                <h3>Social Media</h3>
+                <div class="iconos">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <p>Sed urna tortor, tristique id sagittis quis, feugiat at diam. Mauris facilisis
+                    mauris ut tristique pulvinar, nunc elit mollis nibh, a eleifend nibh lorem se
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form action="#">
+            <p>Contáctanos llenando todos los campos</p>
+            <div class="conetenedor-campos">
+                <div class="campo">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                </div>
+                <div class="campo">
+                    <label>Télefono:</label>
+                    <input type="tel" name="nombre" placeholder="Télefono">
+                </div>
+                <div class="campo w-100">
+                    <label>Correo:</label>
+                    <input type="mail" name="nombre" placeholder="Correo">
+                </div>
+                <div class="campo w-100">
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                </div>
+            </div><!--.contenedor-campos-->
+            <div class="enviar">
+                <input type="submit" class="boton" value="enviar">
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
